@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- Meta Tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <input type="color" value="#F55A5A" id="color-box" />
+            <select id="mode">
+                <option>monochrome</option>
+                <option>monochrome-dark</option>
+                <option>monochrome-light</option>
+                <option>analogic</option>
+                <option>complement</option>
+                <option>analogic-complement</option>
+                <option>triad</option>
+                <option>quad</option>
+            </select>
+            <button id="get-color-btn">Get color scheme</button>
+        </header>
+        <!-- main -->
+        <main class="color-palettes" id="color-palettes">
+            <div class="color-piller">
+                <div class="color" style="background-color: #F55A5A;"></div>
+                <div class="color-code">#F55A5A</div>
+            </div>
+            <div class="color-piller">
+                <div class="color" style="background-color: #2B283A;"></div>
+                <div class="color-code">#2B283A</div>
+            </div>
+            <div class="color-piller">
+                <div class="color" style="background-color: #FBF3AB;"></div>
+                <div class="color-code">#FBF3AB</div>
+            </div>
+            <div class="color-piller">
+                <div class="color" style="background-color: #AAD1B6;"></div>
+                <div class="color-code">#AAD1B6</div>
+            </div>
+            <div class="color-piller">
+                <div class="color" style="background-color: #A626D3;"></div>
+                <div class="color-code">#A626D3</div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
